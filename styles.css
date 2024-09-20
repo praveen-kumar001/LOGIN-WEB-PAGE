@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: url('background.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.login-box .textbox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.login-box .textbox input {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.login-box .textbox input::placeholder {
+    color: #ccc;
+}
+
+.login-box .textbox input:focus {
+    border-bottom-color: #ff6347;
+}
+
+.login-box .btn {
+    width: 100%;
+    background: #ff6347;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 16px;
+    transition: background 0.3s ease;
+}
+
+.login-box .btn:hover {
+    background: #ff4500;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+#msg {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #f00;
+}
